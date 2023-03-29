@@ -1,0 +1,156 @@
+body{
+    font-family: Graphik,Helvetica Neue,arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    
+    padding: 30px;
+    width: 100%;
+}
+.left{
+    display: flex;
+    align-items: center;
+    padding-left: 34px;
+    width: 30%;
+
+}
+.logo{
+    width: 142px;
+    height: 30px;
+}
+.menu{
+   display: flex;
+   align-items: center;
+}
+.menu li{
+    
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.menu li:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.menu li button{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    
+   
+    
+    
+}
+.right li{
+    
+    padding-left: 10px;
+}
+.menu_right ul{
+
+    display: flex;
+
+}
+.menu_right button{
+    
+    
+    height: 39px;
+    width: 80px;
+    border-radius: 4px;
+    border: -1px solid;
+}
+.menu_right .loginbtn{
+    background-color: white;
+}
+.signupbtn{
+     margin-left: 10px;
+    background-color:black ;
+    color: white;
+    
+}
+.mainc_contanier{
+
+    margin-top: 74px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.Left-container{
+    font-family: Graphik,Helvetica Neue,arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    color: #050c26;
+    max-width: 34%;
+    font-size: 25px;
+    width: 50%;
+    margin-left: 33px;
+}
+.Left-container p{
+    font-size: 20px;
+    max-width: 393px;
+    line-height: 27px;
+   
+}
+.sub_container1{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 40px;
+    
+}
+.email_sumit{
+    width: 60%;
+    height: 50px;
+}
+input::placeholder{
+    font-size: 18px;
+    padding-left: 15px;
+}
+.signup_e{
+    height: 56px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.signup_e:hover{
+    background-color: blue;
+
+}
+.sp_or{
+    margin-left: 30px;
+}
+.google_glogo{
+    margin-left: 20px;
+
+
+    width: 30px;
+    height: 30px;
+}
+.div_sig_up_with_g{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid;
+    width: 250px;
+    height: 55px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.div_sig_up_with_g:hover{
+    background-color: rgb(186, 190, 192);
+
+}
+
